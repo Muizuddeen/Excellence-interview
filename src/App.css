@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+.pagination{
+  margin: 0 auto;
+  max-width: 5%;
+  display: flex;
+  justify-content:space-between;
+ align-items: center;
+ }
+.page-buttons{
+  background: black;
+  cursor: pointer;
+  color:white;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+.page-buttons:hover{
+  background: white;
+  cursor: pointer;
+  color:black;
+}
